@@ -33,7 +33,7 @@ function Navbar(){
       </div>
 
         {/* Left Navbar  -> When clicked the icon, changed the navbar's position*/}
-      <div className={!showNavBar ? "fixed left-0 top-1 m-4 h-full w-[60%] border-r border-r-gray-800 bg-[#000300] ease-in-out duration-500" : "fixed left-[-100%]"}>
+      <div className={!showNavBar ? "fixed left-0 top-1 m-4 h-full w-[60%] border-r border-r-gray-800 bg-[#000300] ease-in-out duration-500" : "ease-in-out duration-500 fixed left-[-100%]"}>
 
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
 
